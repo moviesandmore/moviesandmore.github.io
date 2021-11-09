@@ -353,4 +353,3 @@ bzip2.decompress = function(bits, stream, buf, bufsize) {
     if ((crc|0) != (crcblock|0)) console.log("Error in bzip2: crc32 do not match");
     return false;
 }
-

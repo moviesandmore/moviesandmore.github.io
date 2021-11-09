@@ -472,4 +472,3 @@ function Main(version) {
         err => alert(err)
     );
 }
-
