@@ -1,31 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Dashboard</title>
-<link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
-<link rel="stylesheet" href="styles.css">
+    <title>Dashboard</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
 <body>
 
 
-<style>
+    <style>
+        .links {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            text-align: center;
+            align-content: center;
+        }
 
-.type {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: x-large;
-    text-align: center;
-}
+        h2 {
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+            font-size: 37px;
+            text-align: center;
+            align-content: center;
+        }
 
-</style>
+        body {
+            background-color: #cc3838;
+            animation: colour-change 10s infinite;
+        }
+
+        @keyframes colour-change {
+            from {
+                background-color: #99b5f1;
+            }
+
+            to {
+                background-color: rgb(255, 255, 255);
+            }
+        }
+    </style>
+
+    <h2>Welcome</h2>
+
+    <div class="links">
+        <a href="games/games.html">🎮 - Games</a>
+        <br>
+        <br>
+        <a href="movies/movies.html">🎥 - Movies</a>
+    </div>
 
 
-<h2>File Dump Games/Movies</h2>
-<a class="type" href="games/games.html">🎮</a>
-<br>
-<br>
-<a class="type" href="movies/movies.html">🎥</a>
 </body>
 
 
