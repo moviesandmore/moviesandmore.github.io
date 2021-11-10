@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Games- Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">JS Games</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ml-sm-auto mr-xs-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link"><span
+                            class="fa fa-home fa-lg"></span>Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-play fa-lg"></span>All Games</a>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-sign-in fa-lg"></span>About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <h3 onmouseover="myfunction()" id="pop">Tic Tac Toe</h3>
+            </div>
+        </div>
+    </div>
+<body>
+    <div id="main">
+        <!-- Game Instructions -->
+        <p id="ins"><b>Game starts by just Tap on
+            box</b><br><br>First Player starts as
+            <b>Player X</b> And Second
+            Player as <b>Player 0</b>
+        </p>
+
+        <br>
+        <!-- 3*3 grid of Boxes -->
+        <input type="text" id="b1" onclick=
+            "myfunc_3(); myfunc();" readonly>
+
+        <input type="text" id="b2" onclick=
+            "myfunc_4(); myfunc();" readonly>
+
+        <input type="text" id="b3" onclick=
+            "myfunc_5(); myfunc();" readonly>
+        <br><br>
+
+        <input type="text" id="b4" onclick=
+            "myfunc_6(); myfunc();" readonly>
+
+        <input type="text" id="b5" onclick=
+            "myfunc_7(); myfunc();" readonly>
+
+        <input type="text" id="b6" onclick=
+            "myfunc_8(); myfunc();" readonly>
+        <br><br>
+
+        <input type="text" id="b7" onclick=
+            "myfunc_9(); myfunc();" readonly>
+
+        <input type="text" id="b8" onclick=
+            "myfunc_10();myfunc();" readonly>
+
+        <input type="text" id="b9" onclick=
+            "myfunc_11();myfunc();" readonly>
+
+        <!-- Grid end here  -->
+        <br><br><br>
+        <!-- Button to reset game -->
+        <button id="but" onclick="myfunc_2()">
+            RESET
+        </button>
+
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+
+    </div>
+    <script src="static/js/main.js"></script>
+    <script src="static/js/tic.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html> 
